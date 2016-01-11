@@ -1,3 +1,3 @@
-defmodule Workshop.Exercise.IexCheck do
+defmodule Workshop.Exercise.TasksCheck do
   use Workshop.Validator
 end

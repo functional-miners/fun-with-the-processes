@@ -1,4 +1,4 @@
-defmodule Workshop.Exercise.NewProcess do
+defmodule Workshop.Exercise.Links do
   use Workshop.Exercise
 
   @title "Links"

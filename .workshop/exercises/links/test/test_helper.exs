@@ -1,6 +1,6 @@
-defmodule Workshop.Exercise.IexCheck.Helper do
+defmodule Workshop.Exercise.LinksCheck.Helper do
   def exec(_solution_dir) do
     Code.require_file("check.exs", __DIR__)
-    Workshop.Exercise.IexCheck.run()
+    Workshop.Exercise.LinksCheck.run()
   end
 end

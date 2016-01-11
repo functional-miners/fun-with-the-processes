@@ -1,4 +1,4 @@
-defmodule Workshop.Exercise.NewProcess do
+defmodule Workshop.Exercise.Monitors do
   use Workshop.Exercise
 
   @title "Monitors"

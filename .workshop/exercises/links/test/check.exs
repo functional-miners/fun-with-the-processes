@@ -1,3 +1,3 @@
-defmodule Workshop.Exercise.IexCheck do
+defmodule Workshop.Exercise.LinksCheck do
   use Workshop.Validator
 end

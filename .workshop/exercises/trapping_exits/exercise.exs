@@ -1,4 +1,4 @@
-defmodule Workshop.Exercise.NewProcess do
+defmodule Workshop.Exercise.TrappingExits do
   use Workshop.Exercise
 
   @title "It's a trap! (Trapping exits)"
