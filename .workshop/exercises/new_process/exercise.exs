@@ -35,6 +35,7 @@ defmodule Workshop.Exercise.NewProcess do
   @hint [
     "When playing with processes in the `iex` shell, type `:observer.start` and go to 'Applications' tab " <>
       "to see visually how the processes and relations between them look like.",
-    "Local time is handled by module `:calendar` from Erlang's standard library (look for `local_time/0`)."
+    "Local time is handled by module `:calendar` from Erlang's standard library (look for `local_time/0`).",
+    "Don't know how to repeat process loop? Try to recall recursion and *tail calls* topics from previous workshop."
   ]
 end
