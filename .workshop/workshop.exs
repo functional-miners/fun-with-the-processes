@@ -1,0 +1,48 @@
+defmodule Workshop.Meta do
+  use Workshop.Info
+
+  # The human readable title of the workshop.
+  @title "Fun with the processes"
+
+  # The version number is used to verify what version of the workshop the user
+  # is running.
+  @version "0.0.1"
+  @generator_version "0.5.1"
+
+  # An optional url to the website of the workshop. If the website is a Git repo
+  # on GitHub the help page will point to the GitHub issues page when the user
+  # types `mix workshop.help`
+  #
+  # ie: `https://github.com/foo/bar` becomes `https://github.com/foo/bar/issues`
+  @home "https://github.com/silesian-beamers/fun-with-the-processes"
+
+  # An optional short description of the workshop. Will get shown at places
+  # where the long description would not fit, such as the `mix workshop` screen.
+  # Set this to `false` if you want to suppress the missing shortdesc warning.
+  @shortdesc "SilesianBEAMers introduction to processes and other related facilities in Elixir"
+
+  # The description should state what the user will learn from this workshop.
+  # Perhaps mention the intended audience.
+  @description """
+  This workshop will introduce you to the basics of the process management and
+  other constructs provided in the language and standard libraries.
+  """
+
+  # The introduction should welcome the user to the workshop, set the
+  # expectations, and inform the user to execute the next-command to get to the
+  # first exercise.
+  @introduction """
+  This is the introduction and it will get displayed when the workshop has been
+  started.
+
+  Don't forget to inform the user to write `mix workshop.next` to get to the
+  first exercise.
+  """
+
+  # The debriefing message will get shown when the workshop is over.
+  # This would be a good opportunity to congratulate the user; perhaps thank the
+  # user and; and ask for feedback.
+  @debriefing """
+  You have completed the last exercise. Congratulations!
+  """
+end
