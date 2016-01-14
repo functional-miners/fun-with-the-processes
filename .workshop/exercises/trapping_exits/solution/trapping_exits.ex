@@ -59,6 +59,7 @@ defmodule TrappingExits do
 
       _ ->
         # Ignoring other messages.
+        nil
     end
 
     supervisor(new_pids)

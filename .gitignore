@@ -1,7 +1,7 @@
 # Binaries:
 /_build
 *.ez
-/silesian_beamers_survey
+!/workshop-0.5.1.ez
 
 # Dependencies:
 /deps
