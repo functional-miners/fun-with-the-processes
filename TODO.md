@@ -1,21 +1,27 @@
 # TODO
 
-## Tasks
+## Topic
 
-- [ ] Process - PID, Spawning, Mailbox, Sending and Receiving
-  - [ ] Recurrency and looping
-  - [ ] Process visualization - Observer, Erlubi
-  - [ ] Process internals - dictionary, stack-trace
-- [ ] Linking processes - Exit signals, `spawn_link`
-- [ ] Trapping exits - Supervisors, swallowing exit signals
-- [ ] Monitoring processes - One-directional link.
-- [ ] Tasks - Elixir specific.
-- [ ] Agents - Elixir specific.
-- [ ] Introduction to OTP.
+Simulation:
 
-## Theme
-
-- [ ] TicTacToe?
-- [ ] Simulation?
-- [ ] Calculating something?
-- [ ] Distributed system - Survey?
+- Tools
+  - Erlubi
+  - Observer
+- Bacteria
+  - Spawning (PID)
+  - Sending and Receiving (Mailbox)
+  - Looping
+- White cells
+  - Process dictionary (Random numbers)
+  - Exit signals (killing bacteria)
+- Board
+  - Named processes
+  - Monitors (monitoring cells)
+  - Linking (when board is closed cells should be closed)
+  - Storing cells PIDs
+- Simulation
+  - Trapping exits (when board exits it should trap it and restart it)
+- Task
+  - Refactoring white cell to Task
+- Agent
+  - Refactoring board to Agent
