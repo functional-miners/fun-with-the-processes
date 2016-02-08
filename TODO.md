@@ -4,10 +4,6 @@
 
 Simulation:
 
-- Bacteria
-  - Spawning (PID)
-  - Sending and Receiving (Mailbox)
-  - Looping
 - White cells
   - Process dictionary (Random numbers)
   - Exit signals (killing bacteria)
