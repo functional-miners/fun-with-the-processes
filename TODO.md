@@ -4,9 +4,6 @@
 
 Simulation:
 
-- Tools
-  - Erlubi
-  - Observer
 - Bacteria
   - Spawning (PID)
   - Sending and Receiving (Mailbox)
