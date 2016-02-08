@@ -125,7 +125,7 @@
           identyfikatora, który możemy wygenerować za pomocą `make_ref/0`.
     - Zadanie - zaimplementuj proces bakterii, który żyje i odbiera
       odpowiedniewiadomości oraz wysyła określoną wiadomość, jeśli osiągnie
-      pewien poziom życia. Szczegóły są opisane w treści zadania.
+      pewien poziom życia. Szczegóły kontraktu są opisane w treści zadania.
 
 3. Wnętrze procesu i sygnały z zewnątrz (PROCESS DICTIONARY, EXIT SIGNALS, TRAPPING EXITS).
 4. Zarządzanie procesami (NAMED PROCESSES, MONITORS, LINKS).
