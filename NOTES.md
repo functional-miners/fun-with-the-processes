@@ -123,11 +123,20 @@
           można pobrać za pomocą BIFa `self/0`.
         - Jak zidentyfikować konkretną wiadomość? Najlepiej za pomocą
           identyfikatora, który możemy wygenerować za pomocą `make_ref/0`.
+    - Zajmijmy się na chwilę zadaniem, natomiast tam będą dwa problemy o których
+      powiemy sobie za chwilę.
+
     - Zadanie - zaimplementuj proces bakterii, który żyje i odbiera
       odpowiedniewiadomości oraz wysyła określoną wiadomość, jeśli osiągnie
       pewien poziom życia. Szczegóły kontraktu są opisane w treści zadania.
 
 3. Wnętrze procesu i sygnały z zewnątrz (PROCESS DICTIONARY, EXIT SIGNALS, TRAPPING EXITS).
+
+    - Prawie zakończyliśmy implementację naszej bakterii, ale zostały nam dwa
+      problemy do rozwiązania:
+      - Jak zakończyć życie procesu?
+      - Jak wylosować kierunek w którym bakteria powinna się poruszać?
+
 4. Zarządzanie procesami (NAMED PROCESSES, MONITORS, LINKS).
 5. Zadania (TASKS).
 6. Agenci (AGENTS).
