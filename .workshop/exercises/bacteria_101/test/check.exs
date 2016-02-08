@@ -15,5 +15,6 @@ defmodule Workshop.Exercise.BacteriaCheck do
   # end
 
   verify "" do
+    :ok
   end
 end

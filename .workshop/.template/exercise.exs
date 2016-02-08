@@ -7,6 +7,9 @@ defmodule Workshop.Exercise.Bacteria do
   @description ~S"""
   """
 
+  @task """
+  """
+
   @hint [
     "If you don't know how a particular function works, look up it's documentation in IEx with `h`.",
     "You can check if your process is alive by `Process.alive?(pid)`.",
